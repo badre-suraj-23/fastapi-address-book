@@ -1,20 +1,5 @@
 # FastAPI Address Book
 
-# Project Structure
-
-fastapi-address-book/
-│
-├─ app/
-│   ├─ main.py           # FastAPI app entry point
-│   ├─ models.py         # SQLAlchemy models
-│   ├─ schemas.py        # Pydantic schemas
-│   ├─ database.py       # SQLite connection setup
-│   └─ crud.py           # Create, Read, Update, Delete logic
-│
-├─ requirements.txt      # Python dependencies
-├─ .gitignore            # To ignore venv, __pycache__, etc.
-└─ README.md             # Instructions to run
-
 This is a small API project built using FastAPI and SQLite.  
 The goal of this project is to create an address book where users can store addresses with coordinates and search for nearby locations.
 
