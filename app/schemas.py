@@ -1,3 +1,4 @@
+# Pydantic schemas used for request validation and response serialization
 from pydantic import BaseModel
 
 class AddressCreate(BaseModel):
